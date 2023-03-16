@@ -50,5 +50,4 @@ int main()
     delete cursorTaxi;
 
 }
-// TODO: сделать отдельную функцию для печати  map<int, queue<Passenger>> в Util
 

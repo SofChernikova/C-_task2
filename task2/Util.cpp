@@ -5,9 +5,9 @@ using namespace std;
 
 void Util::Menu()
 {
-	cout << "Выберете одну из следующих цифр: " << endl;
-	cout << "1. Добавить пассажира на остановку" << endl;	
-	cout << "2. Выход" << endl;
+	cout << "Select one of the following numbers: " << endl;
+	cout << "1. Add passenger to the stop" << endl;	
+	cout << "2. Exit" << endl;
 }
 
 void Util::fillStops(map<int, queue<Passenger>>* stopsMap)
