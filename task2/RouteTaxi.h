@@ -28,7 +28,7 @@ public:
 	~RouteTaxi();
 	vector<int> getStops();
 	map<int, vector<Passenger>> getPassengers();
-	void setÂirection(bool value);
+	void setDirection(bool value);
 
 
 	void addPassengers(int currStop, Passenger pass);

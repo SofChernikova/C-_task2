@@ -32,7 +32,7 @@ void StartMove::start(map<int, queue<Passenger>>* cursorMap, RouteTaxi* cursorTa
 
 		}
 		
-		cursorTaxi->setÂirection(false);
+		cursorTaxi->setDirection(false);
 
 		for (int i = cursorTaxi->getStops().size()-1; i >= 0; i--) {
 			cout << "Do you want to see a menu? Print 1 - yes,"
@@ -59,7 +59,7 @@ void StartMove::start(map<int, queue<Passenger>>* cursorMap, RouteTaxi* cursorTa
 			}
 		}
 
-		cursorTaxi->setÂirection(true);
+		cursorTaxi->setDirection(true);
 		cout << "Change direction" << endl;
 	}
 	

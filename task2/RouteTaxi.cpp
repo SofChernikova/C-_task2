@@ -44,7 +44,7 @@ map<int, vector<Passenger>> RouteTaxi::getPassengers() {
 	 return RouteTaxi::stops;
  };
 
-void RouteTaxi::setÂirection(bool value)
+void RouteTaxi::setDirection(bool value)
 {
 	RouteTaxi::forward = value;
 };
